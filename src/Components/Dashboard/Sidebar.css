@@ -1,0 +1,559 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.SideBar {
+  height: 100vh;
+  background: #ffffff;
+  width: 50vh;
+}
+
+/* .ant-layout-sider, .ant-layout-sider-dark, .SideBar {
+  position: fixed;
+  z-index: 1;
+  flex: 0 0 100px !important;
+  max-width: 100px !important;
+  min-width: 60px !important;
+  width: 61px !important;
+} */
+.ant-layout-sider-zero-width-trigger {
+    background-color: #1890ff !important;
+    top: 2px;
+  }
+ 
+.Logo img {
+  width: 60px;
+  height: 60px;
+}
+.midicon {
+  margin-top: 100px;
+}
+.midicon img {
+  width: 35px;
+  height: 35px;
+  /* margin-bottom: 10px; */
+}
+.ant-menu-item,
+.ant-menu-item-only-child {
+  padding-left: 10px !important;
+}
+.ant-menu-item,
+.ant-menu-item-only-child,
+.midicon3 {
+  padding-left: 10px !important;
+}
+.boticon {
+  width: 30px;
+  height: 30px;
+  margin: 70px 15px;
+}
+.boticon img {
+  margin-top: 15px;
+}
+.main_header{
+  /* display: flex;
+  flex-wrap: wrap; */
+  position: relative;
+}
+.rowhead{
+  display: flex;
+  flex-direction: row;
+}
+.ant-layout-header {
+  background: #F4F9FF !important;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  /* height: 70px !important;
+  padding: 0 50px !important; */
+  /* margin-left: 61px; */
+}
+.headright{
+  /* float: right; */
+  /* margin-right: 0vh; */
+  /* margin-left: 150px; */
+  border-radius: 5px;
+}
+.ant-layout {
+  background: #F4F9FF;
+}
+.lefthead {
+  font-weight: 700;
+  font-size: 28px;
+  /* margin-left: 0px; */
+  font-family: 'Montserrat', sans-serif;
+}
+.ant-btn-primary {
+  /* width: 150px !important; */
+  float: right;
+  margin-top: 20px;
+  /* font-family: 'Montserrat', sans-serif; */
+  /* margin-left: 40px; */
+}
+.midhead {
+  margin-top: 5px;
+  width: 50px !important;
+  font-family: 'Montserrat', sans-serif;
+}
+.ant-input-affix-wrapper {
+  margin-left: 120px !important;
+  width: 40% !important;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #2B78D4;
+  color: #2B78D4;
+}
+
+.contentGrid{
+  position: absolute;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  row-gap: 0;
+  column-gap: 0ch;
+  top: 60px;
+  /* margin: 0 0 0 2vw; */
+  /* margin-left: 10px; */
+}
+.card1 {
+  border-radius: 20px;
+}
+.card1:hover{
+  border-style: solid;
+  border-width: 2px;
+  border-color: #2B78D4;
+}
+.ant-card-body {
+  padding: 9px !important;
+}
+.ant-col .ant-col-4{
+  padding-left: 6px;
+}
+.cardImg {
+  margin: 7px 15px;
+  width: 35px;
+  height: 35px;
+  background-color: #d1dcf4;
+  border-radius: 5px;
+}
+
+.cardTitile {
+  color: #002f68;
+  font-weight: 600;
+  font-style: bold;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 15px;
+  margin-top: 10px;
+}
+.cardPara {
+  font-weight: 400;
+  font-size: 10px;
+  color: #5c83b1;
+  font-family: 'Montserrat', sans-serif;
+}
+.cardSpan {
+  font-size: 13px;
+  color: #5c83b1;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 20px;
+}
+.card2Para{
+  color: #7d7d7d;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 10px !important;
+  font-family: 'Montserrat', sans-serif;
+}
+.card2btn{
+  float: right;
+  border-radius: 10px;
+  margin: 10px 10px !important;
+}
+
+.card2{
+  display: none;
+}
+.site-card-border-less-wrapper{
+  display: block;
+}
+.gutter-box {
+  padding: 8px 0;
+  background: #00a0e9;
+}
+.ant-row{
+  /* height: 150px !important; */
+  margin:  0 !important;
+}
+.ant-menu-vertical, .ant-menu-item:not(:last-child), .ant-menu-vertical-left, .ant-menu-item:not(:last-child), .ant-menu-vertical-right, .ant-menu-item:not(:last-child), .ant-menu-inline, .ant-menu-item:not(:last-child){
+  margin-bottom: 5px !important;
+}
+.ant-layout-content{
+  margin: 15px 0px !important;
+}
+.btndiv{
+  display: flex;
+  justify-content: space-between;
+}
+.deletebtn{
+  border-radius: 5px;
+  /* width: 65px !important; */
+  margin: 10px 0px 0 70px;
+}
+.ant-input{
+  /* flex-basis: 40%; */
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: 0;
+  border-bottom: 1px solid #2B78D4;
+}
+.col2para p{
+  display: flex;
+  flex-direction: column;
+  color: #002F68;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 25px;
+  padding-left: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+.ant-modal-header{
+  border-radius: 24px 24px 0 0;
+  border-bottom: none;
+}
+.ant-modal-content{
+  border-radius: 24px !important;
+}
+.ant-modal-title{
+  color: #A7B0C3 !important;
+}
+.ant-upload.ant-upload-select-picture-card {
+  border-radius: 12px !important;
+  width: 100px !important;
+  height: 110px !important;
+  background-color: #D1DCF4;
+}
+.popupfooter{
+  margin-top: 40px !important;
+}
+.popupbtn{
+  float: right;
+  border-radius: 10px;
+  width: 25%;
+  height: 35px !important;
+  margin: 10px 0px 0 220px !important;
+  background-color: #2B78D4;
+}
+.popupdelbtn{
+  border-radius: 5px;
+  width: 25%;
+  height: 35px !important;
+  font-weight: 500;
+  margin: 10px 0px 0 10px !important;
+  border-style: solid;
+  border-color: #2B78D4;
+  border-width: 1px;
+  color: #2B78D4;
+}
+.ant-modal-close-x {
+  width: 30px;
+  height: 30px;
+  border-radius: 95px;
+  background-color: #EFF1F8;
+  margin: 10px 10px;
+  color: #2B78D4;
+  line-height: 30px;
+}
+
+.inputText, .inputText:focus{
+  color: #002F68;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+}
+.ant-input:placeholder-shown{
+  font-size: 12px;
+  font-weight: 100;
+}
+.inputTextarea{
+  color: #002F68;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+}
+.modalfield{
+  width: 500px !important;
+}
+.modalfield .ant-modal-close-x {
+  margin: 30px 28px;
+}
+.modalfield .cardTitile{
+  margin-top: 5px;
+}
+.modalfield .rowfield{
+  margin-top: 25px !important;
+}
+.modalfield .ant-input:placeholder-shown{
+  width: 230px;
+}
+.modalfield .col2para p{
+  padding-left: 60px;
+  line-height: 30px;
+}
+.modalfield .inputText, .inputText:focus{
+  width: 230px !important;
+  line-height: 30px;
+}
+.modalfield .popupbtn{
+  margin: 10px 0px 0 70px !important;
+}
+.modalfield .inputTextarea{
+  width: 230px !important;
+}
+
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
+  .contentGrid {
+    grid-template-columns: auto auto auto auto;
+    /* margin: 0 8vh 0 5vh; */
+  }
+  .headright{
+    margin-right: 0px;
+  }
+  .boticon {
+    margin: 7vh 15px;
+  }
+}
+@media screen and (max-width: 1024px){
+.contentGrid {
+  grid-template-columns: auto auto auto;
+  top: 60px;
+  /* margin: 0 0px 0 5vh; */
+}
+.ant-input-affix-wrapper {
+  /* margin-left: 15vh !important; */
+  width: 50% !important;
+}
+.headright {
+    margin-right: 0vh;
+}
+.midicon {
+  margin-top: 10vh;
+}
+.boticon {
+  margin: 5vh 15px;
+}
+}
+@media screen  and (max-width: 768px){
+  .contentGrid {
+    grid-template-columns: 50% 50%;
+    margin: 0 0 0 5vh;
+    top: 50px;
+  }
+  .ant-input-affix-wrapper {
+    margin-left: 8vw !important;
+    width: 55% !important;
+  }
+  .ant-btn-primary {
+    float: left;
+}
+.midicon {
+  margin-top: 10vh;
+}
+.boticon {
+  margin: 7vh 15px;
+}
+}
+@media screen  and (max-width: 425px){
+  .contentGrid {
+    grid-template-columns: auto;
+    margin: 0 0 0 15vh;
+    top: 27%;
+  }
+  .rowhead{
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .ant-input-affix-wrapper {
+    margin-left: 1vw !important;
+    width: 100% !important;
+  }
+  .midhead {
+    margin-top: 5px;
+    width: 60% !important;
+  }
+  .lefthead {
+    height: 20px;
+    margin-left: 10px;
+  }
+  .ant-layout-header {
+    padding: 0 !important;
+    margin-left: 130px;
+  }
+  .ant-btn-primary {
+    margin: 0 12px;
+  }
+  .modalfield .popupbtn {
+    margin: 0px 0px 0 70px !important;
+  }
+  .modalfield .col2para p {
+    padding-left: 34px;
+}
+.modalfield .cardImg{
+  margin: 5px 15px;
+}
+.modalfield .cardSpan{
+  font-size: 12px;
+}
+.modalfield .inputText, .inputText:focus {
+  width: 200px !important;
+}
+.modalfield  .inputTextarea{
+  width: 200px !important;
+}
+.ant-modal-body {
+  padding: 10px;
+}
+.ant-upload.ant-upload-select-picture-card {
+  margin-top: 10px;
+  width: 85px !important;
+  height: 85px !important;
+}
+.ant-input {
+  width: 90%;
+}
+.popupbtn {
+  margin: 0px 0px 0 150px !important;
+}
+.popupdelbtn {
+  margin: 0px 0px 0 10px !important;
+}
+.ant-upload {
+  font-size: 12px;
+}
+.col2para p {
+  padding: 0;
+}
+}
+@media screen  and (max-width: 375px){
+  .contentGrid {
+    grid-template-columns: auto;
+    margin: 0 0 0 10vh;
+    top: 27%;
+  }
+  .rowhead{
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .ant-input-affix-wrapper {
+    margin-left: 1vw !important;
+    width: 100% !important;
+  }
+  .midhead{
+    margin-top: 5px;
+  }
+  .lefthead {
+    height: 20px;
+    margin-left: 0px;
+}
+.ant-layout-header {
+  padding: 0 !important;
+  margin-left: 100px;
+}
+.ant-btn-primary {
+  margin: 0;
+}
+.modalfield .col2para p {
+  padding-left: 20px;
+}
+.modalfield .cardImg{
+  margin: 5px 10px !important;
+}
+.modalfield .cardSpan{
+font-size: 10px;
+}
+.inputText, .inputText:focus {
+  font-weight: 700;
+  font-size: 15px;
+}
+.modalfield .inputText, .inputText:focus {
+  width: 180px !important;
+}
+.modalfield  .inputTextarea{
+  width: 180px !important;
+}
+.ant-upload.ant-upload-select-picture-card {
+  margin-top: 10px;
+  width: 75px !important;
+  height: 75px !important;
+}
+.col2para p {
+  padding: 0;
+  font-size: 9px;
+}
+.ant-input:placeholder-shown {
+  font-size: 10px;
+}
+}
+@media screen  and (max-width: 320px){
+  .contentGrid {
+    grid-template-columns: auto;
+    margin: 10vw 0 0 8vw;
+    top: 20%;
+  }
+  .rowhead{
+    display: grid;
+    grid-template-columns: auto;
+  }
+  /* .ant-layout-header {
+    margin-left: 40px;
+  } */
+  .lefthead {
+    margin-left: 0px;
+}
+.modalfield .col2para p {
+  padding-left: 5px;
+}
+.modalfield .cardImg{
+  margin: 5px 0px !important;
+}
+.modalfield .cardPara{
+  font-size: 8px;
+  }
+.modalfield .cardSpan{
+font-size: 10px;
+}
+.modalfield .ant-btn {
+  font-size: 12px;
+}
+.modalfield .popupbtn .popupdelbtn{
+  width: 30%;
+}
+.inputText, .inputText:focus {
+  font-weight: 700;
+  font-size: 14px;
+}
+.modalfield .inputText, .inputText:focus {
+  width: 150px !important;
+}
+.modalfield  .inputTextarea{
+  width: 150px !important;
+}
+.modalfield .ant-modal-close-x {
+  margin: 22px 13px;
+}
+.popupbtn {
+  margin: 0px 0px 0 80px !important;
+}
+}
+
+/* .ant-layout-sider, .ant-layout-sider-dark, .SideBar {
+  position: fixed;
+  z-index: 1;
+  flex: 0 0 100px !important;
+  max-width: 100px !important;
+  min-width: 60px !important;
+  width: 61px !important;
+} */
+/* .SideBar {
+  position: fixed;
+  z-index: 1;
+} */
